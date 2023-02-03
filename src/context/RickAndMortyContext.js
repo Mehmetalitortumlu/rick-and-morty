@@ -32,6 +32,7 @@ export const RickAndMortyProvider = ({ children }) => {
     const decreasePage = () => {
         if (page >= 2) {
             setPage(page - 1)
+            
         }
     }
     

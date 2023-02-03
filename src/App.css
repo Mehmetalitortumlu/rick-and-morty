@@ -5,6 +5,9 @@ a{
 *{
   text-align: center;
 }
+body{
+  background : linear-gradient(90deg, #536a79, #f66493)
+}
 .btn-success{
   margin-left: 2rem !important;
   margin-right: 2rem !important;
@@ -63,4 +66,18 @@ transition: 0.3s;
 border-radius: 50%;
 border-color: #ff1717;
 box-shadow: 0 0 10px #ff4040;
+}
+
+.card-hover{
+  border: 1px solid black;
+}
+.card-hover:hover{
+  border:1px solid greenyellow;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px black;
+}
+
+.card-renk{
+  background : linear-gradient(90deg, #c5b6b4, #8196a8);
+  font-weight: bold;
 }
